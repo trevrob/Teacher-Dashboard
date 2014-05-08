@@ -1,0 +1,97 @@
+body {
+	background: url(polaroid.png);
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#container {
+	width: 950px;
+	margin: 0 auto;
+	background-color: #A9B0C7;
+	height: 100%;
+}
+.head{
+	background-color: #002749;
+	color: white;
+	padding: 20px;
+}
+.body{
+	margin-left: 20px;
+}
+.data{
+	font-weight: bold;
+}
+h1{
+	margin: 0px;
+}
+.data_notes{
+	font-style: italic;
+}
+th{
+	background-color: #555A6B;
+	color: white;
+}
+select{
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+table {
+	border-collapse: collapse;
+}
+
+	#exams_table {
+		width: 900px;
+	}
+
+tr, td, th {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+td {
+	height: 30px;
+}
+
+h2 {
+	margin: 5px;
+	color: #21305C;
+}
+h3{
+	color: #21305C;
+}
+
+p {
+	margin: 10px;
+}
+
+#add_record {
+	display: inline-block;
+	padding: 10px;
+	width: 250px;
+	border: 1px solid grey;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: darkgreen;
+	background-color: lightgreen;
+	border: 1px solid darkgreen;
+	display: inline-block;
+	padding: 10px;
+}
+
+input[type='submit'] {
+	vertical-align: middle;
+	background-color: #06266F;
+	font-weight: bold;
+	color: white;
+	padding:5px 5px 5px 5px;
+	margin-left:10px; margin-top: 10px;
+	border-radius: 5px;
+	border-color: #2A4480;
+	}
+
+	textarea{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+	}
